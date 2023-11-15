@@ -22,7 +22,7 @@ class TestOperaciones(unittest.TestCase):
         self.assertEqual(dividir(-10, 2), -5)
         # Aqui incluimos una prueba en la que se divida por 0
         with self.assertRaises(ValueError):
-            dividir(7, 0)  # Al dividir por cero se debe lanzar un error
+            dividir(7, 0)  # Al dividir por cero se debe lanzar un error 
 
 if __name__ == '__main__':
     unittest.main()
